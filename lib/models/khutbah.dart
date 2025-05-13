@@ -4,7 +4,9 @@ class Khutbah {
   final String speaker;
   final String date;
   final String topic;
-  final String transcript;
+  final Map<String, String> transcripts;
+  final Map<String, String> youtubeUrls;
+  final String? summary;
 
   Khutbah({
     required this.title,
@@ -12,6 +14,8 @@ class Khutbah {
     required this.speaker,
     required this.date,
     required this.topic,
-    required this.transcript,
+    required this.transcripts,
+    required this.youtubeUrls,
+    this.summary,
   });
 }

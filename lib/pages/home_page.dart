@@ -10,7 +10,12 @@ final List<Khutbah> allKhutbahs = [
     speaker: 'Sheikh Dr. Abdul Rahman Al-Sudais',
     date: 'May 9, 2025',
     topic: 'Silence',
-    transcript: 'Sheikh Al-Sudais emphasized the value of silence as a sign of wisdom. He reminded the congregation of the Hadith: "Whoever believes in Allah and the Last Day should speak good or remain silent." The khutbah encouraged reflection and control over one’s speech to avoid harm and promote peace.',
+    transcripts: {
+      'English': 'Sheikh Al-Sudais emphasized the value of silence as a sign of wisdom. He reminded the congregation of the Hadith: "Whoever believes in Allah and the Last Day should speak good or remain silent." The khutbah encouraged reflection and control over one’s speech to avoid harm and promote peace.'
+    },
+    youtubeUrls: {
+      'English': 'https://www.youtube.com/watch?v=8530xHMXgho'
+    },
   ),
   Khutbah(
     title: 'The Virtues of Patience and Trust in Allah',
@@ -18,7 +23,12 @@ final List<Khutbah> allKhutbahs = [
     speaker: 'Sheikh Dr. Abdul Bari bin Awwad Ath-Thubaity',
     date: 'May 9, 2025',
     topic: 'Patience',
-    transcript: 'In this khutbah, Sheikh Ath-Thubaity spoke about the rewards of patience and placing trust in Allah. He explained that these qualities lead to peace and strength in hardship, referencing stories from the lives of the Prophets as examples.',
+    transcripts: {
+      'English': 'In this khutbah, Sheikh Ath-Thubaity spoke about the rewards of patience and placing trust in Allah. He explained that these qualities lead to peace and strength in hardship, referencing stories from the lives of the Prophets as examples.'
+    },
+    youtubeUrls: {
+      'English': 'https://www.youtube.com/watch?v=8530xHMXgho'
+    },
   ),
 ];
 
